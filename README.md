@@ -16,14 +16,14 @@ proyecto: <h2>spring-boot-3</h2>
 
 links
 
-1) dependencias
-<a>https://www.postman.com/</a>
-<a>https://spring.io/projects/spring-boot</a>
-<a>https://www.aluracursos.com/</a>
+1) dependencias<br>
+<a>https://www.postman.com/</a><br>
+<a>https://spring.io/projects/spring-boot</a><br>
+<a>https://www.aluracursos.com/</a><br>
 
 
 
-2)ide
+2)ide<br>
 <a href="https://www.jetbrains.com/idea/promo/?msclkid=c934a6edeb2510614d26c2af04a86b25&utm_source=bing&utm_medium=cpc&utm_campaign=AMER_en_BR_IDEA_Branded&utm_term=intellij&utm_content=intellij%20idea">Descarga Intellij</a>
 
 
