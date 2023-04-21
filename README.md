@@ -3,7 +3,7 @@
 proyecto: <h2>spring-boot-3</h2>
 
  curso online de Spring Boot 3, este curso es ideal para publico interesado en desarrollar API´s basadas en un framework de inversion de control para plataforma en JAVA 
- permitiendo agilizar nuestro desarrollo y enfocarnos en las reglas de negocio del proyecto
+ permitiendo agilizar el desarrollo y focar en las reglas de negocio del proyecto
 
 <ol>
   <li>Aprenda a aislar código de reglas de negocio en una aplicación</li>
