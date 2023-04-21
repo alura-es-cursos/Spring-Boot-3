@@ -27,3 +27,8 @@ links
 <a href="https://www.jetbrains.com/idea/promo/?msclkid=c934a6edeb2510614d26c2af04a86b25&utm_source=bing&utm_medium=cpc&utm_campaign=AMER_en_BR_IDEA_Branded&utm_term=intellij&utm_content=intellij%20idea">Descarga Intellij</a>
 
 
+3) auxiliares
+<a>https://trello.com/b/yGQuuyVV/api-voll-med</a>
+<a href="[url](https://www.figma.com/file/vgn35i1ErivIN8LJYEqxGZ/Untitled?node-id=0-223&t=YNrx4H2YyxEWXQFb-0)">modelo en FiGMA</a>
+
+
