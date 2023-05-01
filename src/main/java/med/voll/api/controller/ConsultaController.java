@@ -22,9 +22,15 @@ public class ConsultaController {
     @PostMapping
     @Transactional
     public ResponseEntity agendar(@RequestBody @Valid DatosAgendarConsulta datos) throws ValidacionDeIntegridad {
-
         var response = service.agendar(datos);
-
         return ResponseEntity.ok(response);
     }
+
+    @DeleteMapping
+    @Transactional
+    public ResponseEntity cancelar(@RequestBody @Valid DatosCancelamientoConsulta dados) {
+        service.cancelar(dados);
+        return ResponseEntity.noContent().build();
+    }
+
 }
