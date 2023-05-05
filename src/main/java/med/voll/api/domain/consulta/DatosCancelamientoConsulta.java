@@ -1,6 +1,7 @@
-package med.voll.api.controller;
+package med.voll.api.domain.consulta;
 
 import jakarta.validation.constraints.NotNull;
+import med.voll.api.domain.consulta.MotivoCancelamiento;
 
 public record DatosCancelamientoConsulta(
         @NotNull

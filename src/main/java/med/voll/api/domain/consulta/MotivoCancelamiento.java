@@ -1,4 +1,4 @@
-package med.voll.api.controller;
+package med.voll.api.domain.consulta;
 
 public enum MotivoCancelamiento {
 

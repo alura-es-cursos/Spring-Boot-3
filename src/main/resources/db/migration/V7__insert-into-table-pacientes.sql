@@ -1,0 +1,2 @@
+
+INSERT INTO `vollmed_api`.`pacientes` (`id`, `nombre`, `email`, `documento`, `calle`, `distrito`, `complemento`, `numero`, `ciudad`, `telefono`, `activo`) VALUES ('7', 'ddebora', 'dd@mail.com', '7654321', 'ran', 'ran', '900', '900', 'ran', '12334567', '1');
