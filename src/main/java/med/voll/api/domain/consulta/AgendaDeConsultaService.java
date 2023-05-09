@@ -9,11 +9,14 @@ import med.voll.api.domain.paciente.PacienteRepository;
 import med.voll.api.infra.errores.ValidacionDeIntegridad;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
+@SuppressWarnings("all")
 public class AgendaDeConsultaService {
     @Autowired
     private PacienteRepository pacienteRepository;
@@ -75,5 +78,9 @@ public class AgendaDeConsultaService {
             throw new ValidacionDeIntegridad("debe seleccionarse una especialidad para el medico");
         }
        return medicoRepository.seleccionarMedicoConEspecialidadEnFecha(datos.especialidad(),datos.fecha());
+    }
+
+    public Page<DatosDetalleConsulta> consultar(Pageable paginacion) {
+        return consultaRepository.findAll(paginacion).map(DatosDetalleConsulta::new);
     }
 }

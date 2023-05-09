@@ -19,6 +19,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 @RestController
 @RequestMapping("/pacientes")
 @SecurityRequirement(name = "bearer-key")
+@SuppressWarnings("all")
 public class PacienteController {
 
     @Autowired
@@ -37,8 +38,8 @@ public class PacienteController {
 
     @GetMapping
     @Operation(summary = "Obtiene el listado para los pacientes")
-    public ResponseEntity<Page<DatosListaPaciente>> listar(@PageableDefault(size = 10, sort = {"nombre"}) Pageable paginacao) {
-        var page = repository.findAllByActivoTrue(paginacao).map(DatosListaPaciente::new);
+    public ResponseEntity<Page<DatosListaPaciente>> listar(@PageableDefault(size = 10, sort = {"nombre"}) Pageable paginacion) {
+        var page = repository.findAllByActivoTrue(paginacion).map(DatosListaPaciente::new);
         return ResponseEntity.ok(page);
     }
 
