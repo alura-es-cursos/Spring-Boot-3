@@ -4,6 +4,7 @@ create table consultas(
     medico_id bigint not null,
     paciente_id bigint not null,
     fecha datetime not null,
+    motivo_cancelamiento varchar(100) ,
 
     primary key(id),
 
