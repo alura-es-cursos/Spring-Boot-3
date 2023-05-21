@@ -1,5 +1,5 @@
 spring:
-  profile.active: dev
+  profile.active: dev, test, prod
   datasource:
     url: jdbc:mysql://localhost/vollmed_api
     username: root

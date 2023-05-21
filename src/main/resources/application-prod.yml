@@ -1,0 +1,20 @@
+spring:
+  profile.active: prod
+  datasource:
+    url: ${DATASOURCE_URL}
+    username: ${DATASOURCE_USERNAME}
+    password: ${DATASOURCE_PASSWORD}
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: false
+
+server:
+  error:
+    include-stacktrace: never
+api:
+  security:
+    secret: ${JWT_SECRET:123456}
+
+
